@@ -1,15 +1,19 @@
 html,
 body {
-  background-image: url('https://discover.rbcroyalbank.com/wp-content/uploads/banner-small-banff-national-park_402x-1.jpg');
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .photo {
   height: 100vh;
   display: flex;
+  position: fixed;
+}
 
+#back {
+  width: 100vmax;
+  height: auto;
 }
 
 .left {
@@ -23,11 +27,20 @@ body {
   top: 40vh;
 }
 
+.leftblank  {
+  width: 50vw;
+  height: 100vh;
+}
+
 .right {
   width: 50vw;
   background-color: black;
   opacity: .7;
   margin: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 
 .plate {
@@ -37,4 +50,48 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
+}
+
+.post {
+  width: 40vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-right: solid white;
+}
+
+.line {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+
+.line img {
+  height: 10vh;
+}
+
+.container {
+  color: black;
+  background-color: white;
+  width: 30vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  display: flex;
+}
+
+a {
+  font-family: arial;
+  text-decoration: none;
+  color: black;
+  font-size: 5vh;
 }
