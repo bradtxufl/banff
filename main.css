@@ -9,6 +9,7 @@ body {
   height: 100vh;
   display: flex;
   position: fixed;
+  z-index: -1;
 }
 
 #back {
@@ -70,7 +71,7 @@ body {
 }
 
 .line img {
-  height: 10vh;
+  height: 5vh;
 }
 
 .container {
@@ -89,9 +90,11 @@ body {
   display: flex;
 }
 
-a {
+.btn-primary {
   font-family: arial;
   text-decoration: none;
   color: black;
   font-size: 5vh;
+  background-color: transparent;
+  border: none;
 }
