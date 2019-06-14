@@ -1,0 +1,40 @@
+html,
+body {
+  background-image: url('https://discover.rbcroyalbank.com/wp-content/uploads/banner-small-banff-national-park_402x-1.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo {
+  height: 100vh;
+  display: flex;
+
+}
+
+.left {
+  width: 50vw;
+  color: white;
+  text-shadow: 1px 1px 0px blue;
+  font-family: arial;
+  width: 20vw;
+  position: fixed;
+  left: 20vw;
+  top: 40vh;
+}
+
+.right {
+  width: 50vw;
+  background-color: black;
+  opacity: .7;
+  margin: 0;
+}
+
+.plate {
+  background-color: black;
+  opacity: .7;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
